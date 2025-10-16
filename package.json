@@ -1,0 +1,22 @@
+{
+  "name": "le-cafe",
+  "version": "1.0.0",
+  "description": "A responsive café menu section using Tailwind CSS, focusing on clean layout, typography, and smooth hover effects.",
+  "main": "server.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SunilDoss/le-cafe.git"
+  },
+  "author": "sunildoss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SunilDoss/le-cafe/issues"
+  },
+  "homepage": "https://github.com/SunilDoss/le-cafe#readme",
+  "dependencies": {
+    "tailwindcss": "^1.9.6"
+  }
+}
