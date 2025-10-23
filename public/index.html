@@ -6,14 +6,14 @@
     <title>Le Cafe</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body class="text-gray-600 font-display">
+<body class="text-gray-600 font-body">
     
     <div> <!-- main wrapper container -->
         <div>
             <navbar>
                 <div>
                     <h1 class="font-bold uppercase p-4 border-b border-gray-200">
-                        <a href="/">Le Cafe</a>
+                        <a href="/" class="text-green-500 sm:text-red-500">Le Cafe</a>
                     </h1>
                 </div>
                 <ul>
@@ -42,14 +42,17 @@
             </navbar>
         </div>
         <main class="px-16 py-6">
-            <div>
+
+            <div class="flex justify-end">
                 <a href="#">Log in</a>
-                <a href="#">Sign up</a>
+                <a href="#" class="ml-3">Sign up</a>
             </div>
+
             <header>
                 <h2 class="text-gray-700 text-6xl font-semibold">Receipes</h2>
                 <h3 class="text-2xl font-semibold">Specials</h3>
             </header>
+
             <div>
                 <h4 class="font-bold mt-12 pb-2 border-b border-gray-300">Lateset receipes</h4>
                 <div class="mt-8"> <!-- card goes here  -->
@@ -71,12 +74,13 @@
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div>
+                <div class="flex justify-center">
+                    <div class="bg-gray-400 text-black-100 px-4 py-2 rounded">
                         Load more
                     </div>
                 </div>
             </div>
+            
         </main>
     </div>
 
